@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <div class="division">
+
+    <div class="sidebar">
+
+    <nav>
+          <a href="#" class="sicons"><i class="fa-solid fa-house"></i></a>
+          <a href="#" class="sicons"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </nav>
+  </div>
+  <!-- <div class="heading"> -->
+
+  <div class="right_side">
+    <div class="segment1">
+      <a class="name">Renee Mckively</a>
+      <p class="post">Product Manager</p>
+      <hr class="line" />
+    </div>
+    <div class="segment2">
+      <div class="divi first">
+         <!-- <br><br><br> -->
+        <div class="dark card">
+            <div class="boxheading">
+              Total DSP AUM
+              <div class="box-icon">
+                <i class="fa-solid fa-house"></i>
+              </div>
+            </div>
+            <div class="box-bottom">
+              $123456
+            </div>
+        </div>
+        <div class="card">
+            <div class="boxheading">
+              Number of Users
+              <div class="box-icon">
+                <i class="fa-solid fa-hashtag"></i>
+              </div>
+            </div>
+            <div class="box-bottom">
+              $123456
+            </div>
+        </div>
+      </div>
+      <div class="divi second">
+         <!-- <br><br><br> -->
+        <div class="card">
+          <div class="boxheading">
+            Prime Members
+            <div class="box-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <div class="box-bottom">
+            $123456
+          </div>
+        </div>
+        <div class="card">
+          <div class="boxheading">
+            Mean Age of Folio
+            <div class="box-icon">
+              <i class="fa-solid fa-gauge-simple"></i>
+            </div>
+          </div>
+          <div class="box-bottom">
+            $123456
+          </div>
+        </div>
+      </div>
+      <div class="divi third">
+        <!-- <br><br><br> -->
+        <div class="card">
+          <div class="boxheading">
+            Distribution of AUM
+            <div class="box-icon">
+              <i class="fa-solid fa-circle-half-stroke"></i>
+            </div>
+          </div>
+          <div id="piechart" class="chart">
+
+          </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="mainfilter">
+        <div class="filters first">
+            <div class="card">
+              <p class="boxheading">Behavioral Filters</p>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Sensible
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Aggregate
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Fund Recommendation
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Risk Score
+                </a>
+                <div class="optiondiv">
+                  <label class="option" for="fname">Min</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 80px;">
+                  <label class="option" for="fname">Max</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 80px;">
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Risk Category
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">High</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">Low</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">All</label>
+                </div>
+              </form>
+            </div>
+            <div class="card">
+              <p class="boxheading">Demographics</p>
+              <form class="filteroption">
+                <a class="filterheading">
+                    Gender
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Male</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">Female</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Others</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Age 
+                </a>
+                <div class="optiondiv">
+                  <label class="option" for="fname">Min</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 80px;">
+                  <label class="option" for="fname">Max</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 80px;">
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="filters second">
+            <div class="card">
+              <p class="boxheading">Fund Filters</p>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Had SIP Taxsaver ever
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Invested in small cal ever
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Invested in Taxsaver ever
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Total funds ever held
+                </a>
+                <div class="optiondiv">
+                  <label class="option" for="fname">Min</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 50px;">
+                  <label class="option" for="fname">Max</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 50px;">
+                </div>
+              </form>
+            </div>
+            <div class="card">
+              <p class="boxheading">Other</p>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Pan Validity
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Investor's last transaction
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Broker</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">Direct</label>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="filters third">
+            <div class="card">
+              <p class="boxheading">User Profile</p>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Is Individual/HUF
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Is prime member
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Business Vertical
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                  <input type="radio" id="javascript" class="option" name="fav_language" value="Both">
+                  <label class="option" for="Both">Both</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Tenure Days
+                </a>
+                <div class="optiondiv">
+                  <label class="option" for="fname">Min</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 80px;">
+                  <label class="option" for="fname">Max</label>
+                  <input class="option" type="number" id="fname" value="John" maxlength="8" style="width: 80px;">
+                </div>
+              </form>
+            </div>
+            <div class="card">
+              <p class="boxheading">Digital User</p>
+              <form class="filteroption">
+                <a class="filterheading">
+                  Website User
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                </div>
+              </form>
+              <form class="filteroption">
+                <a class="filterheading">
+                  App User
+                </a>
+                <div class="optiondiv">
+                  <input type="radio" id="html" class="option" name="fav_language" value="Yes">
+                  <label class="option" for="Yes">Yes</label>
+                  <input type="radio" id="css" class="option" name="fav_language" value="No">
+                  <label class="option" for="No">No</label>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+  </body>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Type', 'Value'],
+  ['Cash', 8],
+  ['Debt', 2],
+  ['Equity', 2],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':''};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+</html>

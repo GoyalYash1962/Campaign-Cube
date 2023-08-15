@@ -1,0 +1,161 @@
+.sidebar{
+  width: 50px;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+.sicons{
+  padding: 15px 15px;
+  margin-bottom: 15px;
+}
+.division{
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+.right_side{
+  /* right: 10px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 5px;
+  /* border: 2px solid black; */
+}
+.name
+{
+  margin-top: 0;
+  text-align: right;
+  text-decoration: none;
+  /* right: 10px; */
+  color: black;
+  /* margin-top: 30px; */
+  /* margin-left: 0px;
+  margin-right: 10px; */
+}
+.post{
+  text-align: right;
+  /* right: 10px; */
+  text-decoration: none;
+  color: #aaaaaa;
+  /* margin-top: 0px; */
+  /* margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 10px; */
+  font-size: 1.0rem;
+  margin-bottom: 5px;
+}
+.bell-icon{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.nameandposition{
+  display: flex;
+}
+.line{
+  border-top: 1px solid black;
+}
+/* .divi{
+  position: relative;
+  display: block;
+} */
+.first
+{
+  width: 33%;
+}
+.second{
+  width: 33%;
+}
+.third{
+  width: 33%;
+}
+.card
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  border-radius: 15px;
+}
+.companyname{
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+.boxheading{
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.box-icon{
+  margin-left: auto;
+  margin-right: 40px;
+  /* right: 10px; */
+}
+/* .heading{
+  display: block;
+} */
+.box-bottom{
+  margin: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.segment1{
+  display: flex;
+  flex-direction: column;
+  /* display: block; */
+  /* border: 2px solid black; */
+  padding: 10px;
+  width: 100%;
+  font-size: 1.2rem
+}
+.segment2{
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+}
+.boxheading{
+  display: flex;
+  width: 100%;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.chart{
+  height: 320px;
+  width: 95%;
+  margin-left: 10px;
+}
+.dark
+{
+  color: white;
+  background-color: #444444;
+}
+.divi{
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.filteroption{
+  display: flex;
+  /* width: 100%; */
+}
+.option{
+  margin: 2px;
+}
+.filterheading{
+  margin: 5px;
+  text-decoration: none;
+  margin-left: 15px;
+  color: black;
+}
+.optiondiv{
+  text-align: right;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.mainfilter{
+  display: flex;
+  flex-direction: row;
+}
+form{
+  padding: 2.5px;
+}
