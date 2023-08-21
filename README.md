@@ -2,7 +2,7 @@
 
 # How to view the web page
 
-Install all the files in a folder, and then copy the path of the index.html file then paste it into the address bar of google chrome or any web browser.
+Download all the files in a folder, copy the path of the index.html file, and then paste it onto the address bar of Google Chrome or any web browser.
 
 # Information regarding classes
 
